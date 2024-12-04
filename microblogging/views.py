@@ -3,6 +3,7 @@ from microblogging.models import Colaborador, Publicacao, Comentario, Seguir
 from microblogging.forms import PublicacaoForm, ComentarioForm
 from django.views.generic import TemplateView, FormView, View
 from django.urls import reverse
+from django.http import HttpResponse
 
 
 class PublicacaoView(FormView):
